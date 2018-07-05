@@ -17,7 +17,7 @@ killTomcat()
     then
       echo "no tomcat pid alive"
     else
-      kill -9 $pid
+     sudo kill -9 $pid
     fi
 }
 cd $PROJ_PATH/order
